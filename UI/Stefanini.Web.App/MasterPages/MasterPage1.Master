@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage1.master.cs" Inherits="Stefanini.Web.App.MasterPages.MasterPage1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+    <title>Stefanini Practical</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/Scripts/SearchAdvancedOptions1.js"></script>
+
+    <link rel="stylesheet" href="/Styles/Buttons.css" />
+    <link rel="stylesheet" href="/Styles/GridPager.css" />
+    <link rel="stylesheet" href="/Styles/GridViewPaginationBootstrapStyle.css" />
+    <link rel="stylesheet" href="/Styles/SearchAdvancedOptions1.css" />
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/Img/Favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/Img/Favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/Img/Favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/Img/Favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/Img/Favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/Img/Favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/Img/Favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/Img/Favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Img/Favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192"  href="/Img/Favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Img/Favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/Img/Favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/Img/Favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/Img/Favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/Img/Favicon/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
